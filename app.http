@@ -1,0 +1,49 @@
+GET http://localhost:3001/pressure/
+
+###
+
+
+POST http://localhost:3001/pressure/
+Content-Type: application/json 
+
+{
+   "Value":41
+}
+###
+GET http://localhost:3001/temp/
+
+###
+
+
+POST http://localhost:3001/temp/
+Content-Type: application/json 
+
+{
+   "Value":"76"
+}
+###
+
+GET http://localhost:3001/corision/
+
+###
+
+
+POST http://localhost:3001/corision/
+Content-Type: application/json 
+
+{
+   "Value":45
+}
+
+###
+GET http://localhost:3001/diameters/
+
+###
+
+
+POST http://localhost:3001/diameters/
+Content-Type: application/json 
+
+{
+   "Value":44
+}
